@@ -564,6 +564,7 @@ h1, h2, h3, h4 {
   font-weight: 400;
   font-size: 35px;
   margin-top: 50px;
+  font-family: "Raleway";
 }
 
 .facility__text {
@@ -615,6 +616,7 @@ h1, h2, h3, h4 {
   text-align: center;
   font-weight: 400;
   font-size: 35px;
+  font-family: "Raleway";
 }
 
 .rooms__text {
@@ -741,4 +743,54 @@ h1, h2, h3, h4 {
   text-align: center;
   font-size: 15px;
   padding: 20px 0;
+}
+
+.testimonies {
+  margin: 50px 0;
+}
+
+.testimonies__title {
+  font-family: "Raleway";
+  text-align: center;
+  font-weight: 400;
+  font-size: 35px;
+  margin: 50px 0;
+}
+
+.testimonies_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonies__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonies__item {
+  width: 400px;
+  padding: 20px 15px;
+  background-color: #FAFAFA;
+  border-radius: 10px;
+}
+
+.testimonies__text {
+  font-family: "Raleway";
+  font-size: 14px;
+  line-height: 20px;
+  color: #454545;
+}
+
+.testimonies__user {
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonies__name {
+  font-weight: 500;
+  font-size: 13px;
+  color: #454545;
 }/*# sourceMappingURL=main.css.map */
