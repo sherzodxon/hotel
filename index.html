@@ -1,14 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template</title>
-    <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum reiciendis rerum, aspernatur, iure eaque explicabo excepturi recusandae obcaecati voluptatibus eligendi blanditiis exercitationem quas soluta odio illo quibusdam ea nihil officia molestiae. Tempora autem ex harum culpa veritatis, delectus necessitatibus earum.</h1>
-<script src="js/main.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hayot Ifori</title>
+        <link rel="stylesheet" href="scss/main.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header_container container">
+                <nav class="navbar">
+                    <a href="/" class="navbar__logo">
+                        <img src="img/logo.png" alt="logo">
+                    </a>
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__item-link">Bosh sahifa</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__item-link">Tadqiqot</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__item-link">Xonalar</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__item-link">Biz haqimizda</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="/" class="navbar__item-link">Bog'lanish</a>
+                        </li>
+                    </ul>
+                    <a href="/" class="nav__button button">Buyurtma qilish</a>
+                </nav>
+            </div>
+        </header>
+        <section class="intro">
+            <div class="intro__container container">
+                <div class="intro__wrapper">
+                    <h1 class="intro__title">Hayot ifori</h1>
+                    <h3 class="intro__desc">Sizda ajoyib xissiyotlar qoldiruvchi mehmonxona</h3>
+                    <p class="intro__text">Har bir daqiqa birinchi marta bo'layotgandek tuyuladi
+                    </p>
+                    <div class="intro__button-wrapper">
+                        <a href="/" class="intro__get-button button">Buyurtma qilish</a>
+                        <a href="/" class="intro__take-button">Ko'rib chiqish</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="facility">
+            <div class="facility__container container">
+                <h2 class="facility__title">Bizning Imkoniyatlarimiz</h2>
+                <p class="facility__text">Biz sizning qulayligingiz uchun zamonaviy (5 yulduzli)
+                    mehmonxona imkoniyatlarini taklif etamiz.</p>
+                <ul class="facility__list">
+                    <li class="facility__item">
+                        <img
+                            src="/img/fac1.png"
+                            alt="/"
+                            width="55"
+                            height="40"
+                            class="facility__item-logo"></img>
+                        <p class="facility__item-text">Suzish Havzasi</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac2.svg" alt="f" class="facility__item-logo">
+                        <p class="facility__item-text">WiFi</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac3.png" alt="f" class="facility__item-logo">
+                        <p class="facility__item-text">Nonushta</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac4.png" alt="f" class="facility__item-logo">
+                        <p class="facility__item-text">Fitness</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac5.png" alt="" class="facility__item-logo">
+                        <p class="facility__item-text">O'yin markazi</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac6.png" alt="" class="facility__item-logo">
+                        <p class="facility__item-text">24/7 Yorug'lik</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac7.png" alt="" class="facility__item-logo">
+                        <p class="facility__item-text">Kir Yuvish</p>
+                    </li>
+                    <li class="facility__item">
+                        <img src="img/fac8.png" alt="" class="facility__item-logo">
+                        <p class="facility__item-text">Avtoturargoh</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="rooms__container container">
+                <h2 class="rooms__title">Hashamatli Xonalar</h2>
+                <p class="rooms__text">Barcha xona sizning qulayligingiz uchun dizaynlashtirilgan</p>
+                <ul class="rooms__list">
+                    <li class="rooms__item">
+                        <img
+                            src="img/room1.jpg"
+                            width="330"
+                            height="285"
+                            alt="room"
+                            class="rooms__item-img"></img>
+                        <p class="rooms__item-text">Televizor, qo'shimcha choyshab va nonushta</p>
+                    </li>
+                    <li class="rooms__item">
+                        <img
+                            src="img/room2.jpg"
+                            width="330"
+                            height="285"
+                            alt="room"
+                            class="rooms__item-img">
+                        <p class="rooms__item-text">Televizor, qo'shimcha choyshablar, nonushta va kamin</p>
+                    </li>
+                    <li class="rooms__item">
+                        <img
+                            src="img/room3.jpg"
+                            width="330"
+                            height="285"
+                            alt="room"
+                            class="rooms__item-img">
+                        <p class="rooms__item-text">Televizion to'plam, qo'shimcha choyshablar, nonushta
+                            va Kamin, konsol va yotoq dam olish</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__wrapper">
+                <div class="footer__container container">
+                    <div class="footer__box-wrapper">
+                        <div class="footer__box">
+                            <h3 class="footer__title">Hayot ifori</h3>
+                            <p class="footer__text">Hayot ifori mehmonxonasida xizmat juda ajoyib edi. O'z vaqtida hal etilmagan va qoniqarli natijalarga erishgan hech qanday muammo yo'q edi. Mehmonxona xodimlarining bizning ehtiyojlarimizni qanday kutishlari bizni hayratda qoldirdi (vaqti-vaqti bilan bizni tekshirish uchun Kengash xonasiga kelishadi)</p>
+                        </div>
+                        
+                        <div class="footer__box">
+                            <ul class="footer__box-list">
+                                <h4 class="footer__box-list-title">Kompaniya</h4>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Maxfiylik siyosati</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">To'lovni qaytarish siyosati</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">F.A.Q</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Biz haqimizda</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <ul class="footer__box-list">
+                                <h4 class="footer__box-list-title">Ijtimoiy tarmoqlar</h4>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Facebook</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Twitter</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Instagram</a>
+                                </li>
+                                <li class="footer__box__item">
+                                    <a href="" class="footer__box-links">Linkedin</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__box">
+                            <h4 class="footer__box-list-title">Axborot byulleteni</h4>
+                            <p class="footer__box-list-text">Qabul qilish uchun bizning axborot byulletenimizga obuna bo'ling
+                                xonalar va dam olish uchun eng so'nggi takliflar
+                                chegirma.
+                            </p>
+                            <form action="get" class="footer__form">
+                                <input type="email" required placeholder="Emailingizni kiriting" class="footer__input">
+                                <button  class="footer__button button">Obuna boʻling</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="footer__info">Hayot ifori 2024</p>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
 </html>

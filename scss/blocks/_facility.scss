@@ -1,0 +1,29 @@
+.facility__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.facility__text{
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center;
+}
+.facility__list{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.facility__item{
+    width: 280px;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 50px 0;
+    margin-bottom: 20px;
+    color: #7C6A46;
+}
+.facility__item-text{
+    font-weight: 400;
+    font-size: 20;
+}

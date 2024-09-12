@@ -1,0 +1,70 @@
+.footer{
+    background-color: #7C6A46;
+    color: #fff;
+    padding: 50px 0;
+    font-size: 12px;
+    font-weight: 500;
+    a{
+        color: #fff;
+        font-size: 12px;
+   
+    }
+}
+.footer__wrapper{
+    padding-bottom: 50px;
+    border-bottom: 1px solid #D9D9D9;
+}
+.footer__title{
+    font-size: 30px;
+    font-family: "Dancing Script";
+    margin-bottom: 12px;
+}
+.footer__box-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer__box{
+    max-width: 270px;
+    &:last-child{
+        max-width: 360px;
+    }
+}
+.footer__box-list-title{
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.footer__text{
+    margin: 0;
+}
+.footer__box__item{
+    margin-bottom: 5px;
+}
+.footer__form{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    width: 360px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.footer__input{
+    font-family: "Raleway";
+    border: none;
+    padding: 0 15px;
+    &:focus{
+        outline: none;
+    }
+}
+.footer__button{
+    border: none;
+    cursor: pointer;
+    font-family: "Raleway";
+}
+.footer__info{
+    font-family: "Raleway";
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 0;
+}

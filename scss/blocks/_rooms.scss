@@ -1,0 +1,70 @@
+.rooms{
+    margin:80px 0;
+    padding: 40px 0;
+    background-color: rgb(124, 106, 70,0.8);
+    color: #fff;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url(/img/roomsbg.png) no-repeat center center;
+        background-attachment: fixed;
+        top: 0;
+        z-index: -1;
+    }
+}
+.rooms__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 35px;
+   
+}
+.rooms__text{
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.rooms__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rooms__item{
+    width: 330px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 10px;
+    position: relative;
+    &::after{
+        position: absolute;
+        width: 107px;
+        //height: 34px;
+        background: rgb(124, 106, 70);
+        color: #fff;
+        right: 30px;
+        top: 30px;
+        content: '2ta xona mavjud';
+        z-index: 1;
+        border-radius: 2px;
+        font-size: 11px;
+        text-align: center;
+        padding: 10px 0;
+    }
+    &:nth-child(2){
+        &::after{
+            content: '4ta xona mavjud';
+        }
+    }
+    &:nth-child(3){
+        &::after{
+            content: '8ta xona mavjud';
+        }
+    }
+}

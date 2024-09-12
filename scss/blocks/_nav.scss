@@ -1,0 +1,22 @@
+.header{
+    background: #FAFAFA;
+}.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+   
+}
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    width: 505px;
+}
+.navbar__item-link{
+    font-size: 15px;
+    font-weight: 500;
+    &:hover{
+        
+        color: #7C6A46;
+    }
+}

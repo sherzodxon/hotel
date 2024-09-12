@@ -1,0 +1,56 @@
+.intro{
+    background: #FAFAFA;
+}
+.intro__title{
+    font-family: "Dancing Script";
+    color: #7C6A46;
+    font-size: 50px;
+}
+.intro__desc{
+    font-size: 53px ;
+    max-width: 401px;
+    margin-top: 24px;
+}
+.intro__text{
+    font-size: 15px;
+    margin-top: 24px;
+    width: 260px;
+}
+.intro__button-wrapper{
+    margin-top: 24px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro__get-button{
+    border-radius: 50px;
+}
+.intro__wrapper{
+    background:url(/img/intro.png) no-repeat center right;
+    background-size: 626px;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+.intro__take-button{
+    position: relative;
+    padding-left: 55px;
+    &::before{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        content: '';
+        background-color: #00A699;
+        border-radius: 50%;
+        left: 0;
+        top: calc(50% - 20px);
+    }
+    &::after{
+        position: absolute;
+        width: 13px;
+        height: 18px;
+        content: '';
+        background: url(../../img/play.svg) no-repeat center center;
+        left: 15px;
+    }
+}
